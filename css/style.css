@@ -1,0 +1,693 @@
+/* =======================================================
+    Template Name: Veer
+    Created By: Foysal Ornob
+    Envato Profile: https://themeforest.net/
+    Website: 
+    Version: 1.0.0
+    Support: 
+========================================================= */
+
+
+
+/* 
+====================================
+[ CSS TABLE CONTENT ]
+------------------------------------
+    1.0 - General
+    2.0 - Typography
+    3.0 - Global setting
+    4.0 - Header Area
+    5.0 - Service Area
+    6.0 - Works Area
+    7.0 - Testimonial Area
+    8.0 - Team Area
+    9.0 - Blog Area
+    10.0 - Clients Area
+    11.0 - Contact Area
+    12.0 - Footer Area
+   
+-------------------------------------
+[ END CSS TABLE CONTENT ]
+===================================== 
+*/
+
+/* -------------------------------------
+1.0 - General
+===================================== 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,100&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@700&display=swap');
+
+img{
+    max-width: 100%;
+}
+body{
+    background-color: #fff;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-
+header top
+=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.header{
+    background-image: url(../images/24.png);
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logo{}
+.logo img{}
+
+.icon-manu{
+ display: none;
+}
+ 
+.menu{}
+.menu ul{list-style: none;
+display: flex; 
+justify-content: center;}
+.menu ul li{
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #fff;
+    font-weight: 700;
+}
+/*=-=-=-=-=-=-=-=-=-=
+header titel
+=-=-=-=-=-=-=-=-==-=*/
+.header-titel{text-align: center;}
+.header-titel h4{
+    font-size: 20px;
+    color: #fff;
+    padding: 250px 25px 0;
+}
+.header-titel h1{
+    font-size: 35px;
+    color: #fff;
+    padding-bottom: 190px;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-
+about
+=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.about{
+    background-color: #f2f6fa;
+    padding: 95px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about p{
+    padding-bottom: 45px;}
+.background-img-sm{
+    position: relative;
+}
+.image{
+    position: absolute;
+   top: 7%;
+   left: 5%;
+    
+}
+.about a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 180px;
+    background-color: #3d9bd7;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.about-text a:hover{
+    background-color: #049cfa;
+}
+
+
+
+                   /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-
+                                    sevice
+                   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==*/
+
+
+.service{
+backgroud-color: #ffffff;
+padding:90px 0 ;}
+.service-titel-top{
+    text-align: center;
+}
+.service-titel-top h1{
+   padding-bottom: 30px ;
+}
+.service-titel-top h6{}
+
+
+.item{
+    text-align: center;
+}
+.service-icon{
+    padding-top: 40px;
+     padding-bottom: 18px;
+
+}
+
+.service-text{}
+.service-text h1{
+    font-size: 16px;
+    padding-bottom: 18px;
+    font-weight: 700;
+
+}
+.service-pera{}
+.service-pera h5{
+    font-style: italic;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===
+                                video area 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=--=-=-*/
+
+.videa-area{
+    background: url(../images/26.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:468px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-icon a{
+    font-size: 40px ;
+    color: #fff;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===
+                                isotop top area
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=--=-=-*/
+
+.isotop{}
+.isotop-titel{ text-align: center;
+padding: 50px 0; 
+}
+
+
+.isotop-titel h1{
+    font-size: 35px ;
+    color: #252525;
+    position: relative;
+    display: inline-block;
+    } 
+
+.isotop-titel h1::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    background-color: #009cff;
+    top:100% ;
+    left: 15%;
+
+}
+
+.isotop-titel h1::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    background-color: #85d0ff;
+    top:120% ;
+    left: 35%;
+
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===
+                               isotop button
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=--=-=-*/
+
+.isotop-pera{
+    text-align: center;
+}
+.isotop-pera h6{
+    font-size: 15px;
+    padding: 32px 0 0;
+    padding-bottom: 50px;
+}
+.button{
+    text-align: center;
+    
+}
+.button button{
+  border: none;
+  background-color: transparent;
+  margin: 0 30px;
+}
+button.arre{
+  color: #009cff;
+  text-decoration: line-through;
+}
+
+.isotop-images img{
+margin-bottom: 25px;
+}
+.down{text-align: center;
+  }
+.down a{
+    margin: 40px 0 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===
+                               client-Review
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-===-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=--=-=-*/
+
+.Client-Reviews{
+       background-image: url(../images/blur.png);
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Client-Reviews-top{
+    text-align: center;
+    margin: 50px 35px 0;
+}
+.Client-Reviews-titel{}
+.Client-Reviews-titel h1{
+    position: relative;
+    display: inline-block;
+}
+
+.Client-Reviews-titel h1::before{
+    content: '';
+    display: block;
+    width: 100px;
+    position: absolute;
+    height: 1px;
+    background-color: #959595;
+    top: 100%;
+    left: 22%;
+}
+.Client-Reviews-titel h1::after{
+    content: '';
+    display: block;
+    width: 100px;
+    position: absolute;
+    height: 1px;
+    background-color: #959595;
+    top: 115%;
+    left: 45%;
+}
+
+.Client-Reviews-pera{
+    display: flex;
+    justify-content: center;
+
+}
+.Client-Reviews-pera p{
+    padding-top: 30px;
+    width: 50%;
+
+
+}
+
+
+.Client-work{
+    text-align: center;
+}
+.Client-Reviews-inbox{}
+.Client-Reviews-img{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.Client-Reviews-img img{}
+.image-pera{}
+.image-pera p{
+    font-style: italic;
+}
+.star-rating{
+     padding-bottom: 30px;
+}
+.star-rating a{}
+.star-rating a i{
+    color: #e67d5f;
+}
+
+/*-----------------================-------------========================
+                    team area 
+========================================================================*/
+.team-area{
+
+}
+.team-area-top{text-align: center;
+padding: 60px;
+}
+.team-area-top h1{
+    position: relative;
+    display: inline-block;
+    
+}
+.team-area-top h1::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 95px;
+    height: 2px;
+    top: 100%;
+    left: 15%;
+    background-color: #a3a3a3;
+}
+.team-area-top h1::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 95px;
+    height: 2px;
+    top: 120%;
+    left: 35%;
+    background-color: #a3a3a3;
+}
+.team-pera{
+    display: flex;
+    justify-content: center;
+}
+.team-pera p{
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+.team-area-pepole{
+
+}
+
+.people-best-team{}
+
+
+.best-team-img{
+    position: relative;
+    overflow: hidden;
+}
+.best-team-img img{}
+
+
+.team-icon{
+   background-color: rgba(197, 192, 192, 0.3);
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.team-icon ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+.team-icon ul li {
+    list-style: none;
+
+}
+.team-icon ul li a{
+margin:0 8px;
+font-size: 20px;
+color: #000000;
+}
+
+.best-team-img:hover .team-icon{
+    left: 0;
+}
+.team-icon ul li a:hover{
+    color: #0e7b9e;
+}
+
+.best-team-img-bottom{
+    text-align: center;
+    background-color: rgba(197, 192, 192, 0.3);
+    padding: 20px 0;
+}
+.best-team-img-bottom h5{
+    color: #3e3f3f;
+    font-style: italic;
+}
+.best-team-img-bottom p{
+    color: #5998b2;
+     font-style: italic;
+}
+/*===================================================================================
+                                    our blog
+====================================================================================*/
+.our-blog{
+
+}
+.our-blog-titel{
+    text-align: center;
+    padding-top: 80px ;
+}
+.our-blog-titel h1{
+    position: relative;
+    display: inline-block;
+}
+.our-blog-titel h1::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 95px;
+    height: 2px;
+    top: 100%;
+    left: 15%;
+    background-color: #009cff;
+ 
+}
+.our-blog-titel h1::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 95px;
+    height: 2px;
+    top: 115%;
+    left: 40%;
+    background-color: #85d0ff;
+ 
+}
+
+.our-blog-pera{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.our-blog-pera p{
+    width: 50%;
+}
+
+.our-blog-button{}
+.our-blog-button-left{
+    display: flex;
+    justify-content: space-between;
+}
+.our-blog-button-left-img{}
+.our-blog-button-left-img img{}
+
+.our-blog-button-left-text{ background-color: #f8fafc;
+padding-left: 18px;
+}
+.our-blog-button-left-text h1{
+    font-size: 25px;
+
+}
+.our-blog-button-left-text h6{}
+
+.our-blog-button-left-text-pera{ background-color: #f8fafc;
+padding-left: 13px;
+}
+.our-blog-button-left-text-pera p{
+    padding-bottom: 20px;
+}
+
+.our-blog-button-left-text-icon{}
+.our-blog-button-left-text-icon ul{}
+.our-blog-button-left-text-icon ul a{
+    text-decoration: none;
+    color: #747474;
+}
+
+
+/*=====================================================================================
+                                contact area
+======================================================================================*/
+.contact-area{
+   position: relative;
+}
+.veer-map{}
+
+.inbox-contact{
+    width: 50%;
+   margin: 0 auto;
+   padding: 40px;
+   background-color: rgba(33, 30, 45, 0.9);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+
+
+}
+.contact-input{
+
+}
+.contact-text{}
+.contact-text h1{
+    color: #fff;
+}
+
+.contact-input{}
+.contact-input input{
+    margin-bottom: 10px;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    color: #ecf0f1;
+    border: solid 1px #76747c;
+}
+
+.contact-input input:focus{
+    border-color: #2980b9;
+}
+
+.contact-input textarea{
+margin-bottom: 8px;
+height: 140px;
+background-color: transparent;
+width: 100%;
+    box-sizing: border-box;
+    color: #ecf0f1;
+}
+.contact-input textarea:focus{
+    border-color: #2980b9
+}
+.contact-input button{}
+
+.contact-massege textarea:focus{
+    outline: 0;
+}
+
+/*==========================================================================================
+
+                                end area
+==========================================================================================*/
+
+.end-area{}
+.end-menu{
+     padding: 17px 0;
+}
+.end-menu ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+.end-menu ul a{
+    text-decoration: none;
+    margin:0 8px;
+    color: #949494;
+}
+.end-icon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 17px 0;
+}
+.end-icon ul{}
+.end-icon ul a{
+    margin: 0 10px;
+    color: #949494;
+}
+                /*==================================================
+                    end area arros              
+                ===================================================*/
+
+
+
+.end-area-arros{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+
+
+}
+.end-area-arros i{
+    font-size: 45px;
+    color: #27ae60;
+}
+
+
+/*======================================================================================
+                                message
+=======================================================================================*/
+.message-botton{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+.message-botton i{
+    font-size: 45px;
+    color: #e74c3c;
+}
+
+
+
+
+
+
+/*=0=============000000000000000000000000==========================================
+                                media css
+===================================================================================*/
+
+@media (max-width: 991px){
+
+.header{
+ 
+}
+.icon-manu{
+   display: flex;
+   color: #fff;
+   font-size: 23px;
+   text-align: center;
+    position: relative;
+
+}
+
+.menu{
+    position: absolute;
+    background-color: rgba(72, 72, 84,0.7);
+    top: 12%;
+    right: 0;
+    width:20%;
+    display: none;
+   ;
+    
+
+}
+.menu ul{
+   display: block;
+}
+.menu ul a{
+    margin: 10px 0;
+    display: flex;
+    justify-content: end;
+}

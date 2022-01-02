@@ -1,0 +1,13 @@
+@media (max-width: 991px){
+
+.icon-manu{
+	display: flex;
+		justify-content: flex-end;
+
+}
+
+.menu{
+	display: none;
+}
+
+}
