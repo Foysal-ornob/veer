@@ -472,6 +472,14 @@ color: #000000;
     background-color: #009cff;
  
 }
+
+.heaf-with{
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
 .our-blog-titel h1::after{
     content: '';
     display: block;
